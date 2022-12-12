@@ -1,7 +1,7 @@
 ﻿using Segmented_Display;
 using System;
  
-string fileName = "segmented display - input.txt";
+string fileName = "../../../segmented display - input.txt";
 string[] lines = File.ReadAllLines(fileName);
 Mapper mapper;
 int score = 0;
